@@ -49,6 +49,6 @@ pip3 install graphviz
 You are free to use it for educational and academic purposes.
 
 ---
-🛠 **Developed by:** [H4Ck10uS01]  
-📌 **Contact:** [github.com/H4Ck10uS01]
+🛠 **Developed by:** H4Ck10uS01  
+📌 **Contact:** github.com/H4Ck10uS01
 
