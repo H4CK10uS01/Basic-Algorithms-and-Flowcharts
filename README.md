@@ -35,6 +35,7 @@ To run and visualize the flowcharts in this project, it is recommended to use:
 ### 📌 Installation on Kali Linux using APT
 ```bash
 sudo apt update
+sudo apt full-upgrade -y
 sudo apt install graphviz python3-graphviz -y
 python3 python_grafico.py
 ```
