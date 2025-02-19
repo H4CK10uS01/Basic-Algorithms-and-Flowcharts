@@ -29,26 +29,20 @@ This project includes the following exercises:
 ## Requirements
 To run and visualize the flowcharts in this project, it is recommended to use:
 - **PSeInt** (To execute the pseudocode).
-- **Flowgorithm** or **Draw.io** (To visualize flowcharts).
-- **Graphviz** (Optional, to generate flowcharts in Python).
+- **Graphviz** (To generate flowcharts in Python).
 
 ## Installation
 ### 📌 Installation on Kali Linux using APT
 ```bash
 sudo apt update
 sudo apt install graphviz python3-graphviz -y
+python3 python_grafico.py
 ```
 
 ### 📌 Installation using pip3 on any Linux distribution
 If you prefer to use pip3, install Graphviz and its Python library with:
 ```bash
 pip3 install graphviz
-```
-If you encounter an "externally-managed-environment" error, use a virtual environment:
-```bash
-python3 -m venv my_env
-source my_env/bin/activate
-pip install graphviz
 ```
 
 ## License
