@@ -1,0 +1,66 @@
+•	Ejercicio 1: Determinar el mayor de dos valores distintos
+Algoritmo MayorDeDosNumeros
+    Definir A, B Como Entero
+    Escribir "Ingrese el primer número:"
+    Leer A
+    Escribir "Ingrese el segundo número:"
+    Leer B
+    Si A > B Entonces
+        Escribir "El mayor es: ", A
+    Sino
+        Escribir "El mayor es: ", B
+    FinSi
+FinAlgoritmo
+
+•	Ejercicio 2: Verificar si un número entero es divisible por 3
+Algoritmo DivisiblePorTres
+    Definir N Como Entero
+    Escribir "Ingrese un número:"
+    Leer N
+    Si N MOD 3 == 0 Entonces
+        Escribir "El número es divisible por 3"
+    Sino
+        Escribir "El número no es divisible por 3"
+    FinSi
+FinAlgoritmo
+
+•	Ejercicio 3: Calcular todas las potencias de un número a desde a’ hasta a^k
+Algoritmo PotenciasDeNumero
+    Definir a Como Real
+    Definir k, i Como Entero
+    Escribir "Ingrese la base (a):"
+    Leer a
+    Escribir "Ingrese el exponente máximo (k):"
+    Leer k
+    Para i <- 1 Hasta k Hacer
+        Escribir "a^", i, "=", a^i
+    FinPara
+FinAlgoritmo
+
+•	Ejercicio 4: Cálculo de precios de artículos con y sin IVA
+Algoritmo MenuCompraRopa
+    Definir opcion Como Entero
+    Repetir
+        Escribir "Menu de Compra de Ropa"
+        Escribir "1. Ingresar precios y calcular totales"
+        Escribir "2. Salir"
+        Escribir "Seleccione una opción:"
+        Leer opcion
+        Si opcion == 1 Entonces
+            Definir precio1, precio2, precio3 Como Real
+            Definir totalSinIVA, iva, totalConIVA Como Real
+            Escribir "Ingrese el precio del primer artículo:"
+            Leer precio1
+            Escribir "Ingrese el precio del segundo artículo:"
+            Leer precio2
+            Escribir "Ingrese el precio del tercer artículo:"
+            Leer precio3
+            totalSinIVA <- precio1 + precio2 + precio3
+            iva <- totalSinIVA * 0.16
+            totalConIVA <- totalSinIVA + iva
+            Escribir "Total sin IVA: ", totalSinIVA
+            Escribir "IVA (16%): ", iva
+            Escribir "Total con IVA: ", totalConIVA
+        FinSi
+    Hasta Que opcion == 2
+FinAlgoritmo
